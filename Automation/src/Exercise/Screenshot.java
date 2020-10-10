@@ -24,8 +24,5 @@ public class Screenshot {
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("C:\\Users\\CAN\\eclipse-workspace\\Automation\\Screenshot\\screenshot.png"));
-		
-
 	}
-
 }
