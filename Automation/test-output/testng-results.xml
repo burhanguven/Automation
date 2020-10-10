@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-10T20:28:10Z" name="Default suite" finished-at="2020-10-10T20:28:10Z" duration-ms="91">
+    <groups>
+    </groups>
+    <test started-at="2020-10-10T20:28:10Z" name="Default test" finished-at="2020-10-10T20:28:10Z" duration-ms="91">
+      <class name="Exercise.JavaStream">
+        <test-method signature="regular()[pri:0, instance:Exercise.JavaStream@31fa1761]" started-at="2020-10-10T20:28:10Z" name="regular" finished-at="2020-10-10T20:28:10Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regular -->
+        <test-method signature="streamFilter()[pri:0, instance:Exercise.JavaStream@31fa1761]" started-at="2020-10-10T20:28:10Z" name="streamFilter" finished-at="2020-10-10T20:28:10Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamFilter -->
+        <test-method signature="streamFilter2()[pri:0, instance:Exercise.JavaStream@31fa1761]" started-at="2020-10-10T20:28:10Z" name="streamFilter2" finished-at="2020-10-10T20:28:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamFilter2 -->
+        <test-method signature="streamFilterLength()[pri:0, instance:Exercise.JavaStream@31fa1761]" started-at="2020-10-10T20:28:10Z" name="streamFilterLength" finished-at="2020-10-10T20:28:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamFilterLength -->
+        <test-method signature="streamFilterLengthLimit()[pri:0, instance:Exercise.JavaStream@31fa1761]" started-at="2020-10-10T20:28:10Z" name="streamFilterLengthLimit" finished-at="2020-10-10T20:28:10Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- streamFilterLengthLimit -->
+      </class> <!-- Exercise.JavaStream -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
