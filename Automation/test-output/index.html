@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\CAN\AppData\Local\Temp\testng-eclipse--1562001331\testng-customsuite.xml</span>
+                    <span>C:\Users\CAN\AppData\Local\Temp\testng-eclipse--1402317594\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="Exercise.JavaStream" class="method navigator-link" hash-for-method="regular">regular</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Exercise.JavaStream" class="method navigator-link" hash-for-method="streamConcat">streamConcat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,6 +128,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="Exercise.JavaStream" class="method navigator-link" hash-for-method="streamFilterLengthLimit">streamFilterLengthLimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Exercise.JavaStream" class="method navigator-link" hash-for-method="streamMap">streamMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Exercise.JavaStream" class="method navigator-link" hash-for-method="streamMapSort">streamMapSort</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -148,6 +163,13 @@
                   <a name="regular">
                   </a> <!-- regular -->
                   <span class="method-name">regular</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="streamConcat">
+                  </a> <!-- streamConcat -->
+                  <span class="method-name">streamConcat</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -178,12 +200,26 @@
                   <span class="method-name">streamFilterLengthLimit</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="streamMap">
+                  </a> <!-- streamMap -->
+                  <span class="method-name">streamMap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="streamMapSort">
+                  </a> <!-- streamMapSort -->
+                  <span class="method-name">streamMapSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\CAN\AppData\Local\Temp\testng-eclipse--1562001331\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\CAN\AppData\Local\Temp\testng-eclipse--1402317594\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -232,32 +268,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'streamFilterLengthLimit')
+data.setCell(0, 1, 'regular')
 data.setCell(0, 2, 'Exercise.JavaStream')
-data.setCell(0, 3, 38);
+data.setCell(0, 3, 9);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'regular')
+data.setCell(1, 1, 'streamFilterLength')
 data.setCell(1, 2, 'Exercise.JavaStream')
-data.setCell(1, 3, 13);
+data.setCell(1, 3, 7);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'streamFilter')
+data.setCell(2, 1, 'streamConcat')
 data.setCell(2, 2, 'Exercise.JavaStream')
-data.setCell(2, 3, 3);
+data.setCell(2, 3, 7);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'streamFilterLength')
+data.setCell(3, 1, 'streamMap')
 data.setCell(3, 2, 'Exercise.JavaStream')
-data.setCell(3, 3, 2);
+data.setCell(3, 3, 7);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'streamFilter2')
+data.setCell(4, 1, 'streamFilterLengthLimit')
 data.setCell(4, 2, 'Exercise.JavaStream')
-data.setCell(4, 3, 2);
+data.setCell(4, 3, 6);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'streamMapSort')
+data.setCell(5, 2, 'Exercise.JavaStream')
+data.setCell(5, 3, 5);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'streamFilter')
+data.setCell(6, 2, 'Exercise.JavaStream')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'streamFilter2')
+data.setCell(7, 2, 'Exercise.JavaStream')
+data.setCell(7, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 ms</span>
+              <span class="suite-total-time">Total running time: 48 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -289,20 +337,32 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">streamFilter</span>
-                <span class="method-start">17 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">streamFilter2</span>
+                <span class="method-name">streamConcat</span>
                 <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">streamFilter</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">streamFilter2</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">streamFilterLength</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">streamFilterLengthLimit</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">streamMap</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">streamMapSort</span>
+                <span class="method-start">73 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
