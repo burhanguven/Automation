@@ -15,8 +15,6 @@ public class LogicToProcessItemsinArray {
 
 	public static void main(String[] args) {
 
-
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CAN\\eclipse-workspace\\Automation\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//id-xpath vs bulana kadar 5 sn bekle
 		//tüm ögelerde bekleme uygulanır.

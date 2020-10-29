@@ -10,6 +10,8 @@ public class HandlingHTTPScertifications {
 
 	public static void main(String[] args) {
 		
+		
+		
 		DesiredCapabilities ch=DesiredCapabilities.chrome();
 		ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
 		ch.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);

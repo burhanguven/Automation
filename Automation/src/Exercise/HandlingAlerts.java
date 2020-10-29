@@ -9,8 +9,6 @@ public class HandlingAlerts {
 	public static void main(String[] args) throws InterruptedException {
 
 		String name = "Burhan";
-
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CAN\\eclipse-workspace\\Automation\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");

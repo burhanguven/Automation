@@ -8,7 +8,6 @@ public class TableGrid {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CAN\\eclipse-workspace\\Automation\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.cricbuzz.com/live-cricket-scorecard/18970/pak-vs-s1-2nd-t20i-pakistan-v-sri-lanka-in-uae-2017");

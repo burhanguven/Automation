@@ -15,7 +15,6 @@ public class FLuentWait {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CAN\\eclipse-workspace\\Automation\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
 		

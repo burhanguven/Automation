@@ -17,7 +17,7 @@ public class BrokenLinks {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\CAN\\eclipse-workspace\\Automation\\chromedriver.exe");
+		
 		WebDriver driver=new ChromeDriver();
 		
 		//screenshot için aþaðýda verilen kütüphaneyi eklemek gerekiyor
