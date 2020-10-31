@@ -1,45 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
+<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-31T12:29:34 EET" name="Suite" finished-at="2020-10-31T12:29:34 EET" duration-ms="173">
+  <suite started-at="2020-10-31T13:10:08 EET" name="Loan Department" finished-at="2020-10-31T13:10:09 EET" duration-ms="191">
     <groups>
     </groups>
-    <test started-at="2020-10-31T12:29:34 EET" name="Test" finished-at="2020-10-31T12:29:34 EET" duration-ms="75">
+    <test started-at="2020-10-31T13:10:08 EET" name="Test" finished-at="2020-10-31T13:10:09 EET" duration-ms="96">
       <class name="TestNG.day4">
-        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:TestNG.day4@670002]" started-at="2020-10-31T12:29:34 EET" name="LoginAPIHomeLoan" finished-at="2020-10-31T12:29:34 EET" duration-ms="2" status="PASS">
+        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:TestNG.day4@4b14c583]" started-at="2020-10-31T13:10:09 EET" name="LoginAPIHomeLoan" finished-at="2020-10-31T13:10:09 EET" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG.day4@670002]" started-at="2020-10-31T12:29:34 EET" name="MobileLoginHomeLoan" finished-at="2020-10-31T12:29:34 EET" duration-ms="2" status="PASS">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG.day4@4b14c583]" started-at="2020-10-31T13:10:09 EET" name="MobileLoginHomeLoan" finished-at="2020-10-31T13:10:09 EET" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNG.day4@670002]" started-at="2020-10-31T12:29:34 EET" name="WebLoginHomeLoan" finished-at="2020-10-31T12:29:34 EET" duration-ms="2" status="PASS">
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNG.day4@4b14c583]" started-at="2020-10-31T13:10:09 EET" name="WebLoginHomeLoan" finished-at="2020-10-31T13:10:09 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHomeLoan -->
       </class> <!-- TestNG.day4 -->
       <class name="TestNG.day2">
-        <test-method signature="ploan()[pri:0, instance:TestNG.day2@778d1062]" started-at="2020-10-31T12:29:34 EET" name="ploan" finished-at="2020-10-31T12:29:34 EET" duration-ms="2" status="PASS">
+        <test-method signature="ploan()[pri:0, instance:TestNG.day2@5c909414]" started-at="2020-10-31T13:10:09 EET" name="ploan" finished-at="2020-10-31T13:10:09 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ploan -->
       </class> <!-- TestNG.day2 -->
       <class name="TestNG.day1">
-        <test-method signature="SecondDemo()[pri:0, instance:TestNG.day1@2b6faea6]" started-at="2020-10-31T12:29:34 EET" name="SecondDemo" finished-at="2020-10-31T12:29:34 EET" duration-ms="11" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:TestNG.day1@433d61fb]" started-at="2020-10-31T13:10:09 EET" name="Demo" finished-at="2020-10-31T13:10:09 EET" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SecondDemo -->
+        </test-method> <!-- Demo -->
       </class> <!-- TestNG.day1 -->
+      <class name="TestNG.AfterTestCase">
+        <test-method is-config="true" signature="lastexcution()[pri:0, instance:TestNG.AfterTestCase@78e117e3]" started-at="2020-10-31T13:10:09 EET" name="lastexcution" finished-at="2020-10-31T13:10:09 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexcution -->
+      </class> <!-- TestNG.AfterTestCase -->
+      <class name="TestNG.BeforeTestCase">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:TestNG.BeforeTestCase@7adda9cc]" started-at="2020-10-31T13:10:08 EET" name="prerequiste" finished-at="2020-10-31T13:10:08 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="web()[pri:0, instance:TestNG.BeforeTestCase@7adda9cc]" started-at="2020-10-31T13:10:09 EET" name="web" finished-at="2020-10-31T13:10:09 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web -->
+      </class> <!-- TestNG.BeforeTestCase -->
     </test> <!-- Test -->
-    <test started-at="2020-10-31T12:29:34 EET" name="Car Loan" finished-at="2020-10-31T12:29:34 EET" duration-ms="6">
+    <test started-at="2020-10-31T13:10:09 EET" name="Car Loan" finished-at="2020-10-31T13:10:09 EET" duration-ms="6">
       <class name="TestNG.day3">
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNG.day3@35047d03]" started-at="2020-10-31T12:29:34 EET" name="WebLoginCarLoan" finished-at="2020-10-31T12:29:34 EET" duration-ms="2" status="PASS">
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNG.day3@1622f1b]" started-at="2020-10-31T13:10:09 EET" name="WebLoginCarLoan" finished-at="2020-10-31T13:10:09 EET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginCarLoan -->
       </class> <!-- TestNG.day3 -->
     </test> <!-- Car Loan -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Loan Department -->
 </testng-results>
