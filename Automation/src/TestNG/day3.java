@@ -17,10 +17,17 @@ public class day3 {
 		System.out.println("MobileLoginCarLoan");
 	}
 	@Test
-	public void LoginAPICarLoan() 
+	public void MobilesignincarLoan() 
 	{
 		//rest api automation
-		System.out.println("LoginAPICarLoan");
+		System.out.println("Mobile SIGIN");
 	}
+	@Test
+	public void MobilesignoutcarLoan() 
+	{
+		//rest api automation
+		System.out.println("Mobile SIGNOUT");
+	}
+	
 
 }

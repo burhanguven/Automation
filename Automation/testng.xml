@@ -3,14 +3,24 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="TestNG.day1"/>
+      <class name="TestNG.day1">
+          <methods>
+              <include name="SecondDemo"/>
+          </methods>
+      </class>
       <class name="TestNG.day2"/>
+      <class name="TestNG.day4"/>
     </classes>
   </test> 
   <test name="Car Loan">
   	<classes>
-  		<class name="TestNG.day3"/>
-  		<class name="TestNG.day4"/>
+  		<class name="TestNG.day3">
+  			<methods>
+  				/*include*/
+  				/*Mobile.* mobile ile başlayan classları çalıştırmaz(exclude)*/
+  				<exclude name="Mobile.*"/>
+  			</methods>
+  		</class>
   	</classes>
   </test>
 </suite> 
