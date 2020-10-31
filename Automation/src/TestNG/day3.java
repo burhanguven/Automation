@@ -10,13 +10,13 @@ public class day3 {
 		//selenium
 		System.out.println("WebLoginCarLoan");
 	}
-	@Test
+	@Test(groups = {"smoke"})
 	public void MobileLoginCarLoan()
 	{
 		//appium
 		System.out.println("MobileLoginCarLoan");
 	}
-	@Test
+	@Test(groups = {"smoke"})
 	public void MobilesignincarLoan() 
 	{
 		//rest api automation
