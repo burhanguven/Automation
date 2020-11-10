@@ -1,32 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="20" total="23" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="24" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-31T19:47:13 EET" name="Loan Department" finished-at="2020-10-31T19:47:13 EET" duration-ms="84">
+  <suite started-at="2020-11-01T14:20:00 EET" name="Loan Department" finished-at="2020-11-01T14:20:00 EET" duration-ms="324">
     <groups>
       <group name="smoke">
-        <method signature="BeforeClassTest.three()[pri:0, instance:TestNG.BeforeClassTest@69b2283a]" name="three" class="TestNG.BeforeClassTest"/>
-        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:TestNG.day3@bef2d72]" name="MobileLoginCarLoan" class="TestNG.day3"/>
-        <method signature="day3.MobilesignincarLoan()[pri:0, instance:TestNG.day3@bef2d72]" name="MobilesignincarLoan" class="TestNG.day3"/>
+        <method signature="BeforeClassTest.three()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" name="three" class="TestNG.BeforeClassTest"/>
+        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:TestNG.day3@1817d444]" name="MobileLoginCarLoan" class="TestNG.day3"/>
+        <method signature="day3.MobilesignincarLoan()[pri:0, instance:TestNG.day3@1817d444]" name="MobilesignincarLoan" class="TestNG.day3"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-10-31T19:47:13 EET" name="Regression" finished-at="2020-10-31T19:47:13 EET" duration-ms="84">
-      <class name="TestNG.day3">
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNG.day3@bef2d72]" started-at="2020-10-31T19:47:13 EET" name="MobileLoginCarLoan" finished-at="2020-10-31T19:47:13 EET" duration-ms="15" status="PASS">
+    <test started-at="2020-11-01T14:20:00 EET" name="Test" finished-at="2020-11-01T14:20:00 EET" duration-ms="158">
+      <class name="TestNG.BeforeMethodTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="MobilesignincarLoan()[pri:0, instance:TestNG.day3@bef2d72]" started-at="2020-10-31T19:47:13 EET" name="MobilesignincarLoan" finished-at="2020-10-31T19:47:13 EET" duration-ms="6" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="one()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MobilesignincarLoan -->
-      </class> <!-- TestNG.day3 -->
-      <class name="TestNG.BeforeClassTest">
-        <test-method signature="three()[pri:0, instance:TestNG.BeforeClassTest@69b2283a]" started-at="2020-10-31T19:47:13 EET" name="three" finished-at="2020-10-31T19:47:13 EET" duration-ms="1" status="PASS">
+        </test-method> <!-- one -->
+        <test-method signature="three()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- three -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="two()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- TestNG.BeforeMethodTest -->
+      <class name="TestNG.AfterClassTest">
+        <test-method signature="one()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method signature="three()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method signature="two()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="afterClass" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.AfterClassTest -->
+      <class name="TestNG.day4">
+        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="LoginAPIHomeLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="Logout()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="Logout" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="MobileLoginHomeLoan" finished-at="2020-11-01T14:20:00 EET" depends-on-methods="TestNG.day4.LoginAPIHomeLoan, TestNG.day4.Logout" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- TestNG.day4 -->
+      <class name="TestNG.day2">
+        <test-method signature="ploan(java.lang.String)[pri:0, instance:TestNG.day2@2473d930]" started-at="2020-11-01T14:20:00 EET" name="ploan" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- TestNG.day2 -->
+      <class name="TestNG.day1">
+        <test-method signature="Demo()[pri:0, instance:TestNG.day1@76908cc0]" started-at="2020-11-01T14:20:00 EET" name="Demo" finished-at="2020-11-01T14:20:00 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- TestNG.day1 -->
+      <class name="TestNG.AfterTestCase">
+        <test-method is-config="true" signature="lastexcution()[pri:0, instance:TestNG.AfterTestCase@4a22f9e2]" started-at="2020-11-01T14:20:00 EET" name="lastexcution" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexcution -->
+      </class> <!-- TestNG.AfterTestCase -->
+      <class name="TestNG.BeforeTestCase">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:TestNG.BeforeTestCase@1d119efb]" started-at="2020-11-01T14:20:00 EET" name="prerequiste" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="web()[pri:0, instance:TestNG.BeforeTestCase@1d119efb]" started-at="2020-11-01T14:20:00 EET" name="web" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web -->
+      </class> <!-- TestNG.BeforeTestCase -->
+      <class name="TestNG.BeforeClassTest">
+        <test-method signature="one()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="beforeClass" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="three()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method signature="two()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
       </class> <!-- TestNG.BeforeClassTest -->
-    </test> <!-- Regression -->
+      <class name="TestNG.AfterMethodTest">
+        <test-method signature="one()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="three()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="two()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG.AfterMethodTest -->
+    </test> <!-- Test -->
+    <test started-at="2020-11-01T14:20:00 EET" name="Car Loan" finished-at="2020-11-01T14:20:00 EET" duration-ms="20">
+      <class name="TestNG.AfterSuiteTest">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG.AfterSuiteTest@3c419631]" started-at="2020-11-01T14:20:00 EET" name="afterSuite" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.AfterSuiteTest -->
+      <class name="TestNG.day3">
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobileLoginCarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="MobilesignincarLoan()[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobilesignincarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignincarLoan -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobilesignoutcarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fenerbahce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+      </class> <!-- TestNG.day3 -->
+      <class name="TestNG.BeforeSuiteTest">
+        <test-method is-config="true" signature="buforeStuite()[pri:0, instance:TestNG.BeforeSuiteTest@6fe7aac8]" started-at="2020-11-01T14:20:00 EET" name="buforeStuite" finished-at="2020-11-01T14:20:00 EET" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buforeStuite -->
+      </class> <!-- TestNG.BeforeSuiteTest -->
+    </test> <!-- Car Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>
