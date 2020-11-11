@@ -1,193 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="24" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-01T14:20:00 EET" name="Loan Department" finished-at="2020-11-01T14:20:00 EET" duration-ms="324">
+  <suite started-at="2020-11-11T19:18:55 EET" name="Default suite" finished-at="2020-11-11T19:19:06 EET" duration-ms="10871">
     <groups>
-      <group name="smoke">
-        <method signature="BeforeClassTest.three()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" name="three" class="TestNG.BeforeClassTest"/>
-        <method signature="day3.MobileLoginCarLoan()[pri:0, instance:TestNG.day3@1817d444]" name="MobileLoginCarLoan" class="TestNG.day3"/>
-        <method signature="day3.MobilesignincarLoan()[pri:0, instance:TestNG.day3@1817d444]" name="MobilesignincarLoan" class="TestNG.day3"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2020-11-01T14:20:00 EET" name="Test" finished-at="2020-11-01T14:20:00 EET" duration-ms="158">
-      <class name="TestNG.BeforeMethodTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
+    <test started-at="2020-11-11T19:18:55 EET" name="Default test" finished-at="2020-11-11T19:19:06 EET" duration-ms="10871">
+      <class name="PageObjectModelTestCase.LoginApplication">
+        <test-method signature="Login()[pri:0, instance:PageObjectModelTestCase.LoginApplication@75329a49]" started-at="2020-11-11T19:18:55 EET" name="Login" finished-at="2020-11-11T19:19:05 EET" duration-ms="10809" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[type='search']"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-54M8AA4', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\CAN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d19405808657980ee98bf4c061041280
+*** Element info: {Using=css selector, value=input[type='search']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[type='search']"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'DESKTOP-54M8AA4', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\CAN\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d19405808657980ee98bf4c061041280
+*** Element info: {Using=css selector, value=input[type='search']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:435)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:496)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at PageObjectModelTestCase.LoginApplication.Login(LoginApplication.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="one()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method signature="three()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- three -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="two()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.BeforeMethodTest@49b0b76]" started-at="2020-11-01T14:20:00 EET" name="beforeMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-      </class> <!-- TestNG.BeforeMethodTest -->
-      <class name="TestNG.AfterClassTest">
-        <test-method signature="one()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method signature="three()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- three -->
-        <test-method signature="two()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.AfterClassTest@5ae50ce6]" started-at="2020-11-01T14:20:00 EET" name="afterClass" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestNG.AfterClassTest -->
-      <class name="TestNG.day4">
-        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="LoginAPIHomeLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method signature="Logout()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="Logout" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNG.day4@35047d03]" started-at="2020-11-01T14:20:00 EET" name="MobileLoginHomeLoan" finished-at="2020-11-01T14:20:00 EET" depends-on-methods="TestNG.day4.LoginAPIHomeLoan, TestNG.day4.Logout" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-      </class> <!-- TestNG.day4 -->
-      <class name="TestNG.day2">
-        <test-method signature="ploan(java.lang.String)[pri:0, instance:TestNG.day2@2473d930]" started-at="2020-11-01T14:20:00 EET" name="ploan" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[google.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ploan -->
-      </class> <!-- TestNG.day2 -->
-      <class name="TestNG.day1">
-        <test-method signature="Demo()[pri:0, instance:TestNG.day1@76908cc0]" started-at="2020-11-01T14:20:00 EET" name="Demo" finished-at="2020-11-01T14:20:00 EET" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-      </class> <!-- TestNG.day1 -->
-      <class name="TestNG.AfterTestCase">
-        <test-method is-config="true" signature="lastexcution()[pri:0, instance:TestNG.AfterTestCase@4a22f9e2]" started-at="2020-11-01T14:20:00 EET" name="lastexcution" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastexcution -->
-      </class> <!-- TestNG.AfterTestCase -->
-      <class name="TestNG.BeforeTestCase">
-        <test-method is-config="true" signature="prerequiste()[pri:0, instance:TestNG.BeforeTestCase@1d119efb]" started-at="2020-11-01T14:20:00 EET" name="prerequiste" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequiste -->
-        <test-method signature="web()[pri:0, instance:TestNG.BeforeTestCase@1d119efb]" started-at="2020-11-01T14:20:00 EET" name="web" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- web -->
-      </class> <!-- TestNG.BeforeTestCase -->
-      <class name="TestNG.BeforeClassTest">
-        <test-method signature="one()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="beforeClass" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="three()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- three -->
-        <test-method signature="two()[pri:0, instance:TestNG.BeforeClassTest@4c9f8c13]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-      </class> <!-- TestNG.BeforeClassTest -->
-      <class name="TestNG.AfterMethodTest">
-        <test-method signature="one()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="one" finished-at="2020-11-01T14:20:00 EET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- one -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="three()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="three" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- three -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="two()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="two" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.AfterMethodTest@769f71a9]" started-at="2020-11-01T14:20:00 EET" name="afterMethod" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestNG.AfterMethodTest -->
-    </test> <!-- Test -->
-    <test started-at="2020-11-01T14:20:00 EET" name="Car Loan" finished-at="2020-11-01T14:20:00 EET" duration-ms="20">
-      <class name="TestNG.AfterSuiteTest">
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG.AfterSuiteTest@3c419631]" started-at="2020-11-01T14:20:00 EET" name="afterSuite" finished-at="2020-11-01T14:20:00 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- TestNG.AfterSuiteTest -->
-      <class name="TestNG.day3">
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobileLoginCarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="MobilesignincarLoan()[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobilesignincarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignincarLoan -->
-        <test-method signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:TestNG.day3@1817d444]" started-at="2020-11-01T14:20:00 EET" name="MobilesignoutcarLoan" finished-at="2020-11-01T14:20:00 EET" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[google.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Fenerbahce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignoutcarLoan -->
-      </class> <!-- TestNG.day3 -->
-      <class name="TestNG.BeforeSuiteTest">
-        <test-method is-config="true" signature="buforeStuite()[pri:0, instance:TestNG.BeforeSuiteTest@6fe7aac8]" started-at="2020-11-01T14:20:00 EET" name="buforeStuite" finished-at="2020-11-01T14:20:00 EET" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buforeStuite -->
-      </class> <!-- TestNG.BeforeSuiteTest -->
-    </test> <!-- Car Loan -->
-  </suite> <!-- Loan Department -->
+        </test-method> <!-- Login -->
+      </class> <!-- PageObjectModelTestCase.LoginApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

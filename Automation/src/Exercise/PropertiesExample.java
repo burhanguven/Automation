@@ -17,7 +17,7 @@ public class PropertiesExample {
 		prop.setProperty("browser", "Safari");
 		System.out.println(prop.getProperty("browser"));
 		
-		FileOutputStream fout=new FileOutputStream("C:\\\\Users\\\\CAN\\\\eclipse-workspace\\\\Automation\\\\src\\\\Exercise\\\\data.properties");
+		FileOutputStream fout=new FileOutputStream("C:\\Users\\CAN\\eclipse-workspace\\Automation\\src\\Exercise\\data.properties");
 		prop.store(fout,null);
 	}
 
