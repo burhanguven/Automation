@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageObjectModelTestCase.LoginApplication">
+      <class name="Exercise.ImgControl">
         <methods>
-          <include name="Login"/>
+          <include name="CheckImage"/>
         </methods>
-      </class> <!-- PageObjectModelTestCase.LoginApplication -->
+      </class> <!-- Exercise.ImgControl -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
